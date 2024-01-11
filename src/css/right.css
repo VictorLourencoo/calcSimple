@@ -1,0 +1,11 @@
+.right {
+    background-color: var(--primaryColor);
+    border-radius: 0 2rem 2rem 0;
+}
+
+.right > div:first-child {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}

@@ -1,0 +1,40 @@
+.light {
+    --bgColor: #fff;
+    --primaryColor: #fecc02;
+    --textColor: #000;
+    --placeholderColor: #b4b4b4;
+    --containerIconColor: rgba(0, 0, 0, 0.04);
+}
+
+.dark {
+    --bgColor: #1a1a1a;
+    --primaryColor: #fecc02;
+    --textColor: #fff;
+    --placeholderColor: #b4b4b4;
+    --containerIconColor: rgba(255, 255, 255, 0.04);
+}
+
+.left {
+    background-color: var(--bgColor);
+    border-radius: 2rem 0 0 2rem;
+}
+
+.left > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+.textHeader {
+    color: var(--primaryColor);     
+    font-weight: 500;     
+    font-size: 20px;
+}
+
+.left > div:last-child {
+    color: var(--placeholderColor);
+}
+i {
+    font-size: 1.4rem;
+    color: var(--primaryColor);
+}
